@@ -1,0 +1,74 @@
+#Idle{
+    height: 320px;
+    width: 300px;
+
+}
+
+#right{
+    float: right;
+    font-size: 25px;
+    font-family: cursive;
+    margin-top: 30px;
+    color: rgb(4, 111, 199);
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.main{
+    width: 280px;
+    height: 210px;
+    border-radius: 15px;
+    background-color: rgb(161, 255, 247);
+    margin-left: 10px;
+}
+
+#id{
+    margin: 20px;
+    margin-left: 35px;
+    font-size: 15px;
+    background-color: rgb(161, 255, 247); 
+    border: none;
+    border-bottom: 2px black solid
+}
+
+#pass{
+    margin: 20px;
+    margin-left: 35px;
+    font-size: 15px;
+    margin-top: 0px;
+    background-color: rgb(161, 255, 247); 
+    border: none;
+    border-bottom: 2px black solid;
+}
+
+#go{
+    
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(0, 209, 0);
+}
+
+#clear{
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(182, 179, 179);
+}
+
+#running{
+   
+    height: 30px;
+    width: 220px;
+}
+
+.running{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}

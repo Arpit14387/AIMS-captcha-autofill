@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Captcha popup</title>
+    <link rel="stylesheet" href="./popup.css">
+</head>
+<body >
+    <div id="Idle" >
+    <nav id="nav">
+     <img src="./logo.png" height="100px" width="150px" alt="">
+     <p id="right">Autofill</p>
+    </nav>
+    <div class="main" >
+        <div id="dataNotSaved" >
+      <input placeholder="Roll no." id="id" type="text" >
+      <input placeholder="Password" id="pass" type="password" >
+      <button id="go" >Login</button>
+      <button id="clear">Clear Data</button>
+    </div>
+
+    </div>
+</div>
+
+<div id="running" style="display: none;">
+<p class="running" id="p-run">Running... Please wait</p>
+</div>
+
+   
+    <script src="./background.js"></script>
+</body>
+</html>

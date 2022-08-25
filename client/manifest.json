@@ -1,0 +1,23 @@
+{
+  "name": "Autofill AIMS captcha",
+  "version": "0.0.2",
+  "manifest_version": 3,
+  "description": "Autofill Captcha",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click", 
+    "default_popup": "./popup.html"
+  },
+  "permissions": [
+    "scripting",
+    "storage"
+  ],
+  
+
+  
+  "host_permissions": [
+    "https://aims.iith.ac.in/*"
+  ]
+}
